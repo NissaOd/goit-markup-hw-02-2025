@@ -73,16 +73,16 @@ ul {
     color: var(--navy-blue);
 }
 
-.header .header-link {
+.header .header-nav-item-link {
     color: var(--navy-blue);
     font-weight: 500;
 }
 
-.header .header-link:hover {
+.header .header-nav-item-link:hover {
     color: var(--ocean);
 }
 
-.header .header-link:focus {
+.header .header-nav-item-link:focus {
     color: var(--ocean);
 }
 
