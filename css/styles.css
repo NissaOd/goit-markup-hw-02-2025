@@ -1,0 +1,196 @@
+/* Заголовки с Raleway 700 */
+
+:root {
+        --font-family: "Roboto", sans-serif;
+        --second-family: "Raleway", sans-serif;
+    
+        --iris: #4d5ae5;
+        --ocean: #404bbf;
+        --navy-blue: #2e2f42;
+        --green: #31d0aa;
+        --slate: #434455;
+        --light-slate: #8e8f99;
+        --cornflower: #e7e9fc;
+        --cloud: #f4f4fd;
+        --navy-blue-modal: rgba(46, 47, 66, 0.4);
+        --grey: rgba(46, 47, 66, 0.7);
+        --white: #fff;
+        --dairy: #fcfcfc;
+    
+}
+
+body {
+    background-color: var(--white);
+    color: var(--slate);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em
+}
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+/* Обычный текст с Roboto */
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; /* Обычный */
+}
+
+/* Полужирный текст с Roboto */
+strong {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; /* Средний */
+}
+
+/* Жирный текст с Roboto */
+.bold {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; /* Жирный */
+}
+
+a {
+    text-decoration: none;
+    font-style: normal;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header-logo {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--iris);
+}
+
+.header-logo-part {
+    color: var(--navy-blue);
+}
+
+.header .header-link {
+    color: var(--navy-blue);
+    font-weight: 500;
+}
+
+.header .header-link:hover {
+    color: var(--ocean);
+}
+
+.header .header-link:focus {
+    color: var(--ocean);
+}
+
+.header .header-address {
+    font-style: normal;
+}
+
+.header .header-link-contact {
+    color: var(--slate);
+}
+
+.header .header-link-contact:hover {
+    color: var(--ocean);
+}
+
+.header .header-link-contact:focus {
+    color: var(--ocean);
+}
+
+/* First section */
+
+.title {
+    background-color: var(--navy-blue);
+}
+
+.title-title {
+    font-weight: 700;
+    font-size: 56px;
+    color: var(--white);
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.title .title-btn {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    background-color: var(--iris);
+    text-align: center;
+    cursor: pointer;
+}
+
+.title .title-btn:hover {
+    background-color: var(--ocean);
+}
+
+.title .title-btn:focus {
+    background-color: var(--ocean);
+}
+
+/* Second Section specialty*/
+
+.specialty-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--navy-blue);
+    text-transform: capitalize;
+}
+
+.specialty-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+/* section 3 team*/
+
+.team {
+    background-color: var(--cloud);
+}
+
+.team .team-item {
+    background-color: var(--white);
+}
+
+/* footer*/
+
+.footer {
+    background-color: var(--navy-blue);
+}
+
+.footer .logo-part {
+    color: var(--cloud);
+}
+
+.footer-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    color: var(--cloud);
+}
+.footer-logo {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--iris);
+}
+
+.footer-logo-part {
+    color: var(--cloud);
+}
